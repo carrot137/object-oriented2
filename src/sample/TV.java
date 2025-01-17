@@ -3,8 +3,8 @@ package sample;
 public class TV {
     int channel;
 
-    protected void changeChannel(int channel){
-        if(channel<=0 || 13<=channel){
+    void changeChannel(int channel){
+       if(channel<=0 || 13<=channel){
         System.out.println("チャンネルは１～１２までの間で設定してください");
         return;
         }

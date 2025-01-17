@@ -1,6 +1,6 @@
 package sample;
 
-public class Manager extends Employee {
+public class Manager extends Employeepra {
     
     private String department;
 

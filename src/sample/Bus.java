@@ -1,7 +1,7 @@
 package sample;
 
 public class Bus extends Car {
-    int price;
+   private int price;
 
     
     @Override

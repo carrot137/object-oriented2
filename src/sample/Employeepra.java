@@ -1,27 +1,32 @@
 package sample;
 
-public class Employee {
+public class Employeepra {
     private String name;
+    private int id;
     private double salary;
-    
-
     public String getName() {
         return name;
     }
     public void setName(String name) {
         this.name = name;
     }
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
     public double getSalary() {
         return salary;
     }
     public void setSalary(double salary) {
         this.salary = salary;
-    }
-    Employee(){}
-    Employee(String name,double salary){
+    };
+    Employeepra(){}
+    Employeepra(String name, int id,double salary){
     this.name=name;
+    this.id=id;
     this.salary=salary;
     }
-    
 
 }
